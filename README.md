@@ -5,9 +5,8 @@ An application used to render data from Countries API V3 using React.
 
 ## Project Screen Shot(s)
 
-![alt text] (https://ibb.co/fQSTDFJ)
-
-![alt text] (https://ibb.co/KXVM1CV)
+<img src="https://ibb.co/fQSTDFJ" />
+<img src="https://ibb.co/KXVM1CV" />
 
 ## Reflection
 
