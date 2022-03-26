@@ -39,6 +39,7 @@
         text-decoration: none;
         color: black;
         transition: 0.2s;
+        background-color: white;
     }
     
     .detailsBackDivLight a:hover {
@@ -247,6 +248,7 @@
         text-decoration: none;
         color: black;
         transition: 0.2s;
+        background-color: white;
     }
     
     .detailsBackDivLight a:hover {
