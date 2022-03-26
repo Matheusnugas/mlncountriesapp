@@ -1,0 +1,412 @@
+@media (min-width:700px) {
+    .detailsWrapperLight {
+        background-color: hsl(0, 0%, 98%);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .detailsWrapperDark { 
+        background-color: #202D36;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .detailsBackDivLight {
+        height: 6em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .detailsBackDivDark {
+        height: 6em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .detailsBackDivLight a {
+        background-image: url('../images/backArrow.png');
+        background-size: 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-position-x: 10px;
+        text-indent: 20%;
+        margin-left: 5em;
+        padding: 10px 40px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+    }
+    
+    .detailsBackDivLight a:hover {
+        transform: scale(1.1);
+    }
+    
+    .detailsBackDivDark a {
+        background-image: url('../images/backArrowDarkMode.png');
+        background-size: 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-position-x: 10px;
+        text-indent: 20%;
+        margin-left: 5em;
+        padding: 10px 40px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        background-color: #2B3743;
+        transition: 0.2s;
+    }
+    
+    .detailsBackDivDark a:hover {
+        transform: scale(1.1);
+    }
+    
+    .detailsFlagImg {
+        width: 350px;
+    }
+    
+    .LowerDetailsWrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 1;
+    }
+    
+    .LowerDetailsWrapperDark {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 2px solid blue; */
+        flex-grow: 1;
+        color: white;
+    }
+    
+    .detailsContentWrapperLight {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 45%;
+        height: 45%;
+    }
+    
+    
+    .detailsContentWrapperDark {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 45%;
+        height: 45%;
+    }
+    
+    .detailsContentWrapperLight span {
+        font-weight: 600;
+    }
+    
+    .detailsContentWrapperDark span {
+        font-weight: 600;
+    }
+    
+    .detailsContentWrapperLight p {
+        font-weight: 300;
+    }
+    
+    .detailsContentWrapperDark p {
+        font-weight: 300;
+    }
+    
+    .informationContainer {
+        line-height: 1.5em;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        flex-wrap: wrap;
+        max-height: 100px;
+    }
+    
+    .informationContainerDark {
+        line-height: 1.5em;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        flex-wrap: wrap;
+        max-height: 100px;
+    }
+    
+    .detailsCountryTitleLight {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 2em;
+        font-weight: 800;
+    }
+    
+    .detailsCountryTitleDark {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 2em;
+        font-weight: 800;
+    }
+    
+    .borderButtonContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    
+    .borderButtonContainerDark {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    
+    .borderButtonContainer a {
+        padding: 3px 15px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+    }
+    
+    .borderButtonContainerDark a {
+        padding: 3px 15px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+        color: white;
+    }
+    
+    .borderButtonContainer a:hover {
+        transform: scale(1.2);
+    }
+    
+    .borderButtonContainerDark a:hover {
+        transform: scale(1.2);
+    }
+    
+    .borderButtonContainer :nth-child(1) {
+        font-weight: bold;
+    }
+    
+    .borderButtonContainerDark :nth-child(1) {
+        font-weight: bold;
+    }
+}
+
+@media (max-width:700px) {
+    .detailsWrapperLight {
+        background-color: hsl(0, 0%, 98%);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailsWrapperDark { 
+        background-color: #202D36;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailsBackDivLight {
+        height: 6em;
+        display: flex;
+        align-items: center;
+    }
+
+    .detailsBackDivDark {
+        height: 6em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .detailsBackDivLight a {
+        background-image: url('../images/backArrow.png');
+        background-size: 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-position-x: 10px;
+        text-indent: 20%;
+        margin-left: 1em;
+        padding: 10px 40px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+    }
+    
+    .detailsBackDivLight a:hover {
+        transform: scale(1.1);
+    }
+    
+    .detailsBackDivDark a {
+        background-image: url('../images/backArrowDarkMode.png');
+        background-size: 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-position-x: 10px;
+        text-indent: 20%;
+        margin-left: 1em;
+        padding: 10px 40px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        background-color: #2B3743;
+        transition: 0.2s;
+    }
+    
+    .detailsBackDivDark a:hover {
+        transform: scale(1.1);
+    }
+
+    .detailsFlagImg {
+        width: 350px;
+    }
+    
+    .LowerDetailsWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 3em;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .LowerDetailsWrapperDark {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3em;
+        flex-grow: 1;
+        color: white;
+    }
+
+    .detailsContentWrapperLight {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        line-height: 1.5em;
+    }
+    
+    
+    .detailsContentWrapperDark {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        line-height: 1.5em;
+    }
+    
+    .detailsContentWrapperLight span {
+        font-weight: 600;
+    }
+    
+    .detailsContentWrapperDark span {
+        font-weight: 600;
+    }
+    
+    .detailsContentWrapperLight p {
+        font-weight: 300;
+    }
+    
+    .detailsContentWrapperDark p {
+        font-weight: 300;
+    }
+
+    .informationContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    
+    .informationContainerDark {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .detailsCountryTitleLight {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 2em;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .detailsCountryTitleDark {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 2em;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .borderButtonContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    
+    .borderButtonContainerDark {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .borderButtonContainer a {
+        padding: 3px 15px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+    }
+    
+    .borderButtonContainerDark a {
+        padding: 3px 15px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+        color: white;
+    }
+    
+    .borderButtonContainer a:hover {
+        transform: scale(1.2);
+    }
+    
+    .borderButtonContainerDark a:hover {
+        transform: scale(1.2);
+    }
+    
+    .borderButtonContainer :nth-child(1) {
+        font-weight: bold;
+    }
+    
+    .borderButtonContainerDark :nth-child(1) {
+        font-weight: bold;
+    }
+}

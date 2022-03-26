@@ -1,0 +1,73 @@
+.cardWrapper {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.cardWrapper:hover {
+    transform: scale(1.1);
+}
+
+.cardWrapperDark {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    transition: 0.2s;
+    color: white;
+    background-color: #2B3743;
+}
+
+.cardWrapperDark:hover {
+    transform: scale(1.1);
+}
+
+
+.homeWrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+.homeWrapperDark a {
+    text-decoration: none;
+    color: black;
+}
+
+.cardImageContainer {
+    height: 50%;
+    
+}
+
+.cardImage {
+    height: 140px;
+    width: 250px;
+    border-bottom: 2px solid black;
+}
+
+.cardContentWrapper {
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 50%;
+}
+
+.cardInfoWrapper {
+    line-height: 1.5em;
+    margin-top: 5%;
+}
+
+.cardName {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.cardSpan {
+    font-weight: 600;
+}

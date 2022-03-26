@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+@media (min-width:700px) {
+    nav {
+        display: flex;
+        height: 60px;
+        justify-content: center;
+        gap: 65%;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    nav button {
+        border: none;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        font-weight: bolder;
+        background-color: inherit;
+        cursor: pointer;
+    }
+    
+    nav button img {
+        width: 15%;
+    }
+    
+    .navBarDark {
+        background-color: #2B3743;
+        color: white;
+    }
+    
+    .navBarDark button {
+        background-color: #2B3743;
+        border: none;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .navBarDark button img {
+        width: 10%;
+    }
+    
+    
+    .homeWrapper {
+        background-color: hsl(0, 0%, 98%);
+    }
+    
+    .homeWrapperDark {
+        background-color: #202D36;
+    }
+    
+    .searchDiv {
+        height: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 43%;
+    }
+    
+    .searchDivDark {
+        height: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 43%;
+    }
+    
+    .searchDiv input {
+        background-image: url('../images/zoom.png');
+        background-size: 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-position-x: 10px;
+        text-indent: 15%;
+        padding: 5px 3px;
+        height: 40%;
+        width: 25%;
+        border: none;
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    
+    .searchDivDark input {
+        background-image: url("/Users/matheusnugas/Documents/personal-projects/countries-app/src/images/zoomDark.png");
+        background-size: 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-position-x: 10px;
+        background-color: #2B3743;
+        color: white;
+        font-weight: bolder;
+        text-indent: 15%;
+        padding: 5px 3px;
+        height: 40%;
+        width: 25%;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .searchDivDark input::-webkit-input-placeholder {
+        color: white;
+        opacity: 1;
+    }
+    
+    .searchDiv select {
+        height: 40%;
+        width: 10%;
+        border: none;
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    
+    .searchDivDark select {
+        height: 40%;
+        width: 10%;
+        border: none;
+        border-radius: 5px;
+        background-color: #2B3743;
+        color: white;
+        font-weight: bolder;
+    }
+    
+    
+    
+    .homeContentWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .homeContentWrapperDark {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width:700px) {
+    nav {
+        display: flex;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-family: 'Nunito Sans', sans-serif;
+        gap: 10%;
+    }
+
+    nav h1 {
+        font-size: 1.2em;
+    }
+    
+    nav button {
+        border: none;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        font-weight: bolder;
+        background-color: inherit;
+        cursor: pointer;
+    }
+    
+    nav button img {
+        width: 15%;
+    }
+    
+    .navBarDark {
+        background-color: #2B3743;
+        color: white;
+    }
+    
+    .navBarDark button {
+        background-color: #2B3743;
+        border: none;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .navBarDark button img {
+        width: 10%;
+    }
+    
+    
+    .homeWrapper {
+        background-color: hsl(0, 0%, 98%);
+    }
+    
+    .homeWrapperDark {
+        background-color: #202D36;
+    }
+    
+    .searchDiv {
+        height: 6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 5%;
+        gap: 1.5em;
+   }
+    
+    .searchDivDark {
+        height: 5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 5%;
+        gap: 1.5em;
+    }
+    
+    .searchDiv input {
+        background-image: url('../images/zoom.png');
+        background-size: 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-position-x: 10px;
+        text-indent: 15%;
+        padding: 5px 3px;
+        height: 40%;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    
+    .searchDivDark input {
+        background-image: url("/Users/matheusnugas/Documents/personal-projects/countries-app/src/images/zoomDark.png");
+        background-size: 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-position-x: 10px;
+        background-color: #2B3743;
+        color: white;
+        font-weight: bolder;
+        text-indent: 15%;
+        padding: 5px 3px;
+        height: 40%;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .searchDivDark input::-webkit-input-placeholder {
+        color: white;
+        opacity: 1;
+    }
+    
+    .searchDiv select {
+        height: 40%;
+        width: 50%;
+        border: none;
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        background-color: white;
+    }
+    
+    .searchDivDark select {
+        height: 40%;
+        width: 50%;
+        border: none;
+        border-radius: 5px;
+        background-color: #2B3743;
+        color: white;
+        font-weight: bolder;
+    }
+    
+    
+    
+    .homeContentWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .homeContentWrapperDark {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
