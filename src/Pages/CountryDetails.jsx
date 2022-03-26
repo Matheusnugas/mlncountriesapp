@@ -34,6 +34,7 @@ function CountryDetails() {
   }
 
   const { darkMode } = useContext(CountriesContext);
+  console.log(countryDetails);
 
   return (
     <main className={!darkMode ? "detailsWrapperLight" : "detailsWrapperDark"}>
@@ -101,7 +102,7 @@ function CountryDetails() {
               </p>
               <p>
                 <span>Top Level Domain: </span>
-                {countryDetails.tld[0]}
+                {countryDetails.tld ? countryDetails.tld[0] : "N/A"}
               </p>
               <p>
                 <span>Currencies: </span>
