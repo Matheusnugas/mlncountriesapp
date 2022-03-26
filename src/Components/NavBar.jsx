@@ -1,8 +1,8 @@
 import React from "react";
 import { useContext } from "react";
 import CountriesContext from "../Context/CountriesContext";
-import sunImg from "../images/sun.png";
-import moonImg from "../images/moon.png";
+import sunImg from "../Images/sun.png";
+import moonImg from "../Images/moon.png";
 
 function NavBar() {
   const { darkMode, setDarkMode } = useContext(CountriesContext);
