@@ -94,7 +94,7 @@
     }
     
     .searchDivDark input {
-        background-image: url("/Users/matheusnugas/Documents/personal-projects/countries-app/src/images/zoomDark.png");
+        background-image: url("../images/zoomDark.png");
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
