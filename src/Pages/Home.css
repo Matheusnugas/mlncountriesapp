@@ -79,7 +79,7 @@
     }
     
     .searchDiv input {
-        background-image: url('../images/zoom.png');
+        background-image: url('../Images/zoom.png');
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -94,7 +94,7 @@
     }
     
     .searchDivDark input {
-        background-image: url("../images/zoomDark.png");
+        background-image: url("../Images/zoomDark.png");
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -232,7 +232,7 @@
     }
     
     .searchDiv input {
-        background-image: url('../images/zoom.png');
+        background-image: url('../Images/zoom.png');
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -247,7 +247,7 @@
     }
     
     .searchDivDark input {
-        background-image: url("../images/zoomDark.png");
+        background-image: url("../Images/zoomDark.png");
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;

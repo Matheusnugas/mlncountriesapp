@@ -26,7 +26,7 @@
     }
     
     .detailsBackDivLight a {
-        background-image: url('../images/backArrow.png');
+        background-image: url('../Images/backArrow.png');
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -46,7 +46,7 @@
     }
     
     .detailsBackDivDark a {
-        background-image: url('../images/backArrowDarkMode.png');
+        background-image: url('../Images/backArrowDarkMode.png');
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -234,7 +234,7 @@
     }
     
     .detailsBackDivLight a {
-        background-image: url('../images/backArrow.png');
+        background-image: url('../Images/backArrow.png');
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -254,7 +254,7 @@
     }
     
     .detailsBackDivDark a {
-        background-image: url('../images/backArrowDarkMode.png');
+        background-image: url('../Images/backArrowDarkMode.png');
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
