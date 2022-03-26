@@ -83,7 +83,7 @@
     }
     
     .searchDiv input {
-        /* background-image: url('../Images/zoom.png'); */
+        background-image: url(../Images/searchBlack.png);
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -98,7 +98,7 @@
     }
     
     .searchDivDark input {
-        /* background-image: url("../Images/zoomDark.png"); */
+        background-image: url(../Images/searchWhite.png);
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -241,7 +241,7 @@
     }
     
     .searchDiv input {
-        /* background-image: url('../Images/zoom.png'); */
+        background-image: url(../Images/searchBlack.png);
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -256,7 +256,7 @@
     }
     
     .searchDivDark input {
-        /* background-image: url("../Images/zoomDark.png"); */
+        background-image: url(../Images/searchWhite.png);
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
