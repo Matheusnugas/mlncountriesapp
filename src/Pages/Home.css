@@ -33,7 +33,7 @@
     }
     
     nav button img {
-        width: 15%;
+        width: 12%;
     }
     
     .navBarDark {
@@ -54,7 +54,7 @@
         cursor: pointer;
     }
     .navBarDark button img {
-        width: 10%;
+        width: 15%;
     }
     
     
@@ -83,7 +83,7 @@
     }
     
     .searchDiv input {
-        background-image: url('../Images/zoom.png');
+        /* background-image: url('../Images/zoom.png'); */
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -98,7 +98,7 @@
     }
     
     .searchDivDark input {
-        background-image: url("../Images/zoomDark.png");
+        /* background-image: url("../Images/zoomDark.png"); */
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -241,7 +241,7 @@
     }
     
     .searchDiv input {
-        background-image: url('../Images/zoom.png');
+        /* background-image: url('../Images/zoom.png'); */
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -256,7 +256,7 @@
     }
     
     .searchDivDark input {
-        background-image: url("../Images/zoomDark.png");
+        /* background-image: url("../Images/zoomDark.png"); */
         background-size: 16px;
         background-repeat: no-repeat;
         background-position: left center;
