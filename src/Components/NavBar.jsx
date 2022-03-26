@@ -11,7 +11,7 @@ function NavBar() {
       <h1 className="pageNavTitle">Where in the world?</h1>
       <button onClick={() => setDarkMode(!darkMode)} className="navToggler">
         <img src={!darkMode ? sunImg : moonImg} alt="sunOrMoon" />
-        {!darkMode ? "Light Mode" : "Dark Mode"}
+        {!darkMode ? "Dark Mode" : "Light Mode"}
       </button>
     </nav>
   );
