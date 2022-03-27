@@ -13,10 +13,9 @@ function Home() {
 
   const handleSearch = ({ target }) => {
     setSearchValue(target.value);
-    const filteredList = countriesList.filter((country) =>
+    const filteredList = uneditableCountriesList.filter((country) =>
       country.name.common.toLowerCase().includes(searchValue.toLowerCase())
     );
-
     setCountriesList(filteredList);
     if (target.value.length === 0) {
       setCountriesList(uneditableCountriesList);
@@ -24,7 +23,7 @@ function Home() {
   };
 
   const handleRegionFilter = ({ target }) => {
-    const filteredList = countriesList.filter(
+    const filteredList = uneditableCountriesList.filter(
       (country) => country.region === target.value
     );
     setCountriesList(filteredList);
